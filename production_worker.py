@@ -3,12 +3,11 @@ from employee import Employee
 class ProductionWorker(Employee):
     # This file defines the ProductionWorker class
     # Constructor method to initialize ProductionWorker attributes
-    
-def __init__(self, name, emp_number< shift, hourly_pay_rate):
+    def __init__(self, name, emp_number, shift, hourly_pay_rate):
     # Cronstructor method to initialize ProductionWorker attributes
-    super().__init__(name, emp_number)
-    self.__shift = shift
-    self.__hourly_pay_rate = hourly_pay_rate
+        super().__init__(name, emp_number)
+        self.__shift = shift
+        self.__hourly_pay_rate = hourly_pay_rate
 
     # Method to set the shift number
     def set_shift(self, shift):
