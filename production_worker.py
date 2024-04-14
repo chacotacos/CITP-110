@@ -1,4 +1,9 @@
 from employee import Employee
+
+class ProductionWorker(Employee):
+    # This file defines the ProductionWorker class
+    # Constructor method to initialize ProductionWorker attributes
+    
 def __init__(self, name, emp_number< shift, hourly_pay_rate):
     # Cronstructor method to initialize ProductionWorker attributes
     super().__init__(name, emp_number)
@@ -22,4 +27,3 @@ def __init__(self, name, emp_number< shift, hourly_pay_rate):
         return self.__hourly_pay_rate
     
     # Path: production_worker.py
-    
