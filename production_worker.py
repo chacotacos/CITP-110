@@ -10,4 +10,5 @@ def __init__(self, name, emp_number< shift, hourly_pay_rate):
         self.__shift = shift
 
     # Method to set the hourly pay rate
-    
+    def set_hourly_pay_rate(self, hourly_pay_rate):
+        self.__hourly_pay_rate =
